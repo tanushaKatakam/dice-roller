@@ -19,12 +19,6 @@ def main():
     win = GraphWin("Dice Roller Game", 400, 400)
     win.setBackground("lightblue")
     
-    title = Text(Point(200, 40), "Dice Roller Game")
-    title.setSize(20)
-    title.setStyle("bold")
-    title.setTextColor("navy")
-    title.draw(win)
-    
     layout(win, 1, offset=0)
     layout(win, 1, offset=150)
     
